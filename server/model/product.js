@@ -6,12 +6,13 @@ const productSchema = mongoose.Schema({
         required: true,
         unique: true
     },
+
     title: {
         type: String,
         required: true,
     },
     categories: {
-        type: Array,
+        type: String,
     },
     size: {
         type: String
